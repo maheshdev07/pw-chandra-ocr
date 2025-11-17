@@ -1,0 +1,69 @@
+# ---------------------------------------
+# Python
+# ---------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.eggs/
+*.so
+
+# Virtual environment
+env/
+venv/
+ENV/
+.vscode/
+
+# Byte-compiled / cache
+*.pytest_cache/
+.cache/
+
+# ---------------------------------------
+# Project-specific
+# ---------------------------------------
+# Environment variables
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# Downloads & Outputs
+downloads/
+output/
+markdown_output/
+tmp/
+temp/
+*.pdf
+*.md
+
+# Excel temp files
+~$*.xlsx
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# ---------------------------------------
+# Node / JS (if present)
+# ---------------------------------------
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ---------------------------------------
+# Docker
+# ---------------------------------------
+*.pid
